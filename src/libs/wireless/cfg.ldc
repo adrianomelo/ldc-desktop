@@ -1,0 +1,6 @@
+folder="wireless"
+controller="ctrl_wireless"
+class="CtrlWireless"
+name="Wi-Fi"
+category="Conectividade"
+icon="conectividade.png"

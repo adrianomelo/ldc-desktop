@@ -1,0 +1,6 @@
+folder="processor"
+controller="ctrl_processor"
+class="CtrlProcessor"
+name="Processador"
+category="Sistema"
+icon="sistema.png"

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cacheGroupBox</class>
+ <widget class="QGroupBox" name="cacheGroupBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>162</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <property name="styleSheet">
+   <string>color : rgb(15, 82, 2);</string>
+  </property>
+  <property name="title">
+   <string>Cache</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="associativityModelLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Associatividade</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="associativityLineEdit">
+       <property name="styleSheet">
+        <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="sizeLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Tamanho</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="sizeLineEdit">
+       <property name="styleSheet">
+        <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="operationModeLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Modo de operação</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="operationModeLineEdit">
+       <property name="styleSheet">
+        <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="sramTypesLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Tipos de SRAM suportados</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="sramTypesLineEdit">
+       <property name="styleSheet">
+        <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="errorCorrectionLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Tipo de correção de erro</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="errorCorrectionLineEdit">
+       <property name="styleSheet">
+        <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

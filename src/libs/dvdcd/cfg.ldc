@@ -1,0 +1,6 @@
+folder="dvdcd"
+controller="ctrl_dvdcd"
+class="CtrlDvdcd"
+name="CD/DVD"
+category="Armazenamento"
+icon="armazenamento.png"

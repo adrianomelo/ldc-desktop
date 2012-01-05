@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MotherboardFrame</class>
+ <widget class="QFrame" name="MotherboardFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Plain</enum>
+  </property>
+  <property name="lineWidth">
+   <number>0</number>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="modelLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Modelo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="modelLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>ST 2141</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="vendorLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Fabricante</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="vendorLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>Itautec Philco S.A.</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="versionLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Versão</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="versionLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>PCB 1.1</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="serialLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Serial</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="serialLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>Serial</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="biosGroupBox">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>BIOS</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="biosVendorLabel">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(57, 93, 118);</string>
+        </property>
+        <property name="text">
+         <string>Fabricante</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="4">
+       <widget class="QLineEdit" name="biosVendorLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>Itautec ST 2141,LTD</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="biosDateLabel">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(57, 93, 118);</string>
+        </property>
+        <property name="text">
+         <string>Data</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="2">
+       <widget class="QLineEdit" name="biosDateLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>05/19/2006</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="biosVersionLabel">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(57, 93, 118);</string>
+        </property>
+        <property name="text">
+         <string>Versão</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="biosVersionLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>6.00 PG</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="chipsetGroupBox">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Chipset</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="chipsetModelLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Modelo</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="chipsetModelLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>661FX/M661FX/M661MX Host</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>0</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="chipsetVendorLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Fabricante</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="chipsetVendorLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>Silicon Integrated Systems Corp.</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>0</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="chipsetDriverLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Módulos do driver</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="chipsetDriverLineEdit">
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>sis_agp</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>0</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Compatibilidade</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <item>
+       <widget class="QLineEdit" name="compatLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>Os dispositivos da placa mãe foram identificados corretamente.</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="sugestionLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Sugestão</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="SugestionLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>Tente atualizar o arquivo de definições pciids.</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>0</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usbstorageFrame</class>
+ <widget class="QFrame" name="usbstorageFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Plain</enum>
+  </property>
+  <property name="lineWidth">
+   <number>0</number>
+  </property>
+  <layout class="QVBoxLayout" name="frameVerticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="modelLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Modelo </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="modelLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>DataTraveler 2.0</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="vendorLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Fabricante </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="vendorLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>Kingston</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="deviceFileLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Dispositivo </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="deviceFileLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>/dev/sdb</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="driversLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Drivers </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="driversLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>usb-storage; sd</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="sizeLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Tamanho</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="sizeLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>2 GB</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="speedLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Velocidade</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="speedLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>480 Mbps</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="compatGroupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Compatibilidade</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="compatMsgLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>Dispositivo de armazenamento compatível com o Librix.</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>53</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="diagMountLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Teste de montagem</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="diagMountLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>Nenhum problema na montagem do dispositivo.</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>43</number>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="diagPartLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Teste de particionamento</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="diagPartLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>Particionamento identificado corretamente.</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>42</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="diagFsckLabel">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(57, 93, 118);</string>
+          </property>
+          <property name="text">
+           <string>Verificação de erro</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="diagFsckLineEdit">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+          </property>
+          <property name="text">
+           <string>Nenhum erro encontrado</string>
+          </property>
+          <property name="frame">
+           <bool>false</bool>
+          </property>
+          <property name="cursorPosition">
+           <number>22</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

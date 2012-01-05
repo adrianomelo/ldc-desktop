@@ -1,0 +1,6 @@
+folder="modem"
+controller="ctrl_modem"
+class="CtrlModem"
+name="Modem"
+category="Conectividade"
+icon="conectividade.png"

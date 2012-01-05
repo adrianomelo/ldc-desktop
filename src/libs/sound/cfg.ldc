@@ -1,0 +1,6 @@
+folder="sound"
+controller="ctrl_sound"
+class="CtrlSound"
+name="Som"
+category="Multimídia"
+icon="multimidia.png"

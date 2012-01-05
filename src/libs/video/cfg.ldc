@@ -1,0 +1,6 @@
+folder="video"
+controller="ctrl_video"
+class="CtrlVideo"
+name="Vídeo"
+category="Multimídia"
+icon="multimidia.png"

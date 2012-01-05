@@ -1,0 +1,51 @@
+include libsrc/Rules.make
+
+# Main build types
+
+all: create_bin
+	make -C libsrc all
+
+bin: bin/$(NAME)
+
+lib: $(OUTPUT_PATH)/lib$(NAME).so
+
+
+# To assist execution/debugging
+
+info: bin
+	@(export LD_LIBRARY_PATH=$$LD_LIBRARY_PATH:$(PWD)/../../bin; $(PWD)/bin/$(NAME) 0)
+
+diag: bin
+	@(export LD_LIBRARY_PATH=$$LD_LIBRARY_PATH:$(PWD)/../../bin; $(PWD)/bin/$(NAME) 1)
+
+debug: bin
+	@(export LD_LIBRARY_PATH=$$LD_LIBRARY_PATH:$(PWD)/../../bin; gdb $(PWD)/bin/$(NAME))
+
+
+# Kernel
+
+bin/$(NAME): create_bin
+	make -C libsrc bin
+
+$(OUTPUT_PATH)/lib$(NAME).so:
+	make -C libsrc lib
+
+
+# General
+
+clean:
+	@if [ -d bin ]; then $(RM) -Rf bin; fi
+	@$(RM) -f $(OUTPUT_PATH)/lib$(NAME).*
+	make -C libsrc clean
+
+ui:
+	@for file in `echo *.ui`; do \
+		if [ -f $$file ]; then \
+			echo -n Compiling $${file%.*}... ; \
+			pyuic4 -i 0 $$file -o $${file%.*}.py ; \
+			echo ok! ; \
+		fi ; \
+	done
+	
+create_bin:
+	@if [ ! -d bin ]; then mkdir bin; fi

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LDC_Main_Window</class>
+ <widget class="QMainWindow" name="LDC_Main_Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Librix Diagnostics Center</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/ldc_resources.qrc">
+    <normaloff>:/ldc_icon/ldc_mainwindow_icon.png</normaloff>:/ldc_icon/ldc_mainwindow_icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>580</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

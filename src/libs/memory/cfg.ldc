@@ -1,0 +1,6 @@
+folder="memory"
+controller="ctrl_memory"
+class="CtrlMemory"
+name="Memória"
+category="Sistema"
+icon="sistema.png"

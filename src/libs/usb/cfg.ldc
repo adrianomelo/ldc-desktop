@@ -1,0 +1,6 @@
+folder="usb"
+controller="ctrl_usb"
+class="CtrlUsb"
+name="USB"
+category="USB"
+icon="usb.png"

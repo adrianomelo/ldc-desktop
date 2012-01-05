@@ -1,0 +1,6 @@
+folder="mouse"
+controller="ctrl_mouse"
+class="CtrlMouse"
+name="Mouse"
+category="Interação"
+icon="interacao.png"

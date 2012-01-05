@@ -1,0 +1,6 @@
+folder="motherboard"
+controller="ctrl_motherboard"
+class="CtrlMotherboard"
+name="Placa-Mãe"
+category="Sistema"
+icon="sistema.png"

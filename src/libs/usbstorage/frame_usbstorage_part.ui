@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>partGroupBox</class>
+ <widget class="QGroupBox" name="partGroupBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>66</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <property name="styleSheet">
+   <string>color: rgb(15, 82, 2);</string>
+  </property>
+  <property name="title">
+   <string>Partição</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="deviceFileLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Dispositivo </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="deviceFileLineEdit">
+       <property name="styleSheet">
+        <string>color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>/dev/sdb1</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="sizeFileLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Tamanho</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="sizeLineEdit">
+       <property name="styleSheet">
+        <string>color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>2 GB</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="fileSystemLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Sistema de arquivo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="fileSytemLineEdit">
+       <property name="styleSheet">
+        <string>color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>fat16</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

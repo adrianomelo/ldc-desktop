@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WebcamFrame</class>
+ <widget class="QFrame" name="WebcamFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>316</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Plain</enum>
+  </property>
+  <property name="lineWidth">
+   <number>0</number>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="productLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="productLineEdit">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="vendorLabel">
+         <property name="styleSheet">
+          <string>color: rgb(57, 93, 118);</string>
+         </property>
+         <property name="text">
+          <string>Fabricante</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="vendorLineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="cursorPosition">
+          <number>0</number>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="deviceLabel">
+         <property name="styleSheet">
+          <string>color: rgb(57, 93, 118);</string>
+         </property>
+         <property name="text">
+          <string>Dispositivo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="deviceLineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="cursorPosition">
+          <number>0</number>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QLabel" name="modelLabel">
+         <property name="styleSheet">
+          <string>color: rgb(57, 93, 118);</string>
+         </property>
+         <property name="text">
+          <string>Modelo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="modelLineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="cursorPosition">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="driverLabel">
+         <property name="styleSheet">
+          <string>color: rgb(57, 93, 118);</string>
+         </property>
+         <property name="text">
+          <string>Driver</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="driverLineEdit">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="cursorPosition">
+          <number>0</number>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="loadedGroupBox">
+     <property name="styleSheet">
+      <string>color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Drivers carregados pelo sistema</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QListWidget" name="loadedListWidget">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>94</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Compatibilidade</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QLineEdit" name="compatLineEdit">
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

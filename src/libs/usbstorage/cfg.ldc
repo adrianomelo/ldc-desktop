@@ -1,0 +1,6 @@
+folder="usbstorage"
+controller="ctrl_usbstorage"
+class="CtrlUsbstorage"
+name="Armazenamento USB"
+category="USB"
+icon="usb.png"

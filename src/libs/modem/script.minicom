@@ -1,0 +1,21 @@
+send ATI0\r\n
+expect OK\r\n 
+send ATI1\r\n
+expect OK\r\n
+send ATI2\r\n
+expect OK\r\n
+send ATI3\r\n
+expect OK\r\n
+send ATI4\r\n
+expect OK\r\n
+send ATI5\r\n
+expect OK\r\n
+send ATI6\r\n
+expect OK\r\n
+send ATI7\r\n
+expect OK\r\n
+send ATI8\r\n
+expect OK\r\n
+send ATI9\r\n
+expect OK\r\n
+! killall -9 minicom

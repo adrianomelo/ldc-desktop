@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>soundFrame</class>
+ <widget class="QFrame" name="soundFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Plain</enum>
+  </property>
+  <property name="lineWidth">
+   <number>0</number>
+  </property>
+  <layout class="QVBoxLayout" name="frameVerticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="productLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="productLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>AC'97 Sound Controller </string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>23</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="vendorLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Fabricante </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="vendorLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>Silicon Integrated Systems Corp. </string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>33</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="modelLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Modelo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="modelLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>FIRST INTERNATIONAL AC'97 Sound Controller</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>42</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="idDeviceLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>N° da placa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="idDeviceLineEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>60</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>1</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="activeDriverLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Driver ativo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="activeDriverLineEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>Sim</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>3</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="driverModulesLabel">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Módulos do driver</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="driverModulesLineEdit">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="text">
+        <string>snd_intel8x0</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="cursorPosition">
+        <number>12</number>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="diagnosticLayout">
+     <item>
+      <widget class="QLabel" name="mutableLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Volume silenciável</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="mutableLineEdit">
+       <property name="styleSheet">
+        <string>color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="adjustableLabel">
+       <property name="styleSheet">
+        <string>color: rgb(57, 93, 118);</string>
+       </property>
+       <property name="text">
+        <string>Volume ajustável</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="adjustableLineEdit">
+       <property name="styleSheet">
+        <string>color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="compatGroupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(15, 82, 2);</string>
+     </property>
+     <property name="title">
+      <string>Compatibilidade</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="compatMsgLineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/ldc_white_bckg/ldc_white_bckg.png);</string>
+        </property>
+        <property name="text">
+         <string>O dispositivo de armazenamento é compatível com o Librix.</string>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../gui/resources/ldc_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

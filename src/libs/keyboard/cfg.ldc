@@ -1,0 +1,6 @@
+folder="keyboard"
+controller="ctrl_keyboard"
+class="CtrlKeyboard"
+name="Teclado"
+category="Interação"
+icon="interacao.png"

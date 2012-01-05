@@ -1,0 +1,6 @@
+folder="harddisk"
+controller="ctrl_harddisk"
+class="CtrlHarddisk"
+name="Disco Rígido"
+category="Armazenamento"
+icon="armazenamento.png"

@@ -1,0 +1,55 @@
+<RCC>
+  <qresource prefix="ldc_selection_bckg" >
+    <file>ldc_selection_bckg.png</file>
+  </qresource>
+  <qresource prefix="ldc_wizard_bckg" >
+    <file>ldc_wizard_bckg.png</file>
+  </qresource>
+  <qresource prefix="ldc_icons" >
+    <file>armazenamento.png</file>
+    <file>atencao.png</file>
+    <file>cd_dvd.png</file>
+    <file>check.png</file>
+    <file>conectividade.png</file>
+    <file>disco_rigido.png</file>
+    <file>erro.png</file>
+    <file>interacao.png</file>
+    <file>memoria.png</file>
+    <file>modem.png</file>
+    <file>mouse.png</file>
+    <file>multimidia.png</file>
+    <file>pen_drive.png</file>
+    <file>plca_mae.png</file>
+    <file>processador.png</file>
+    <file>rede.png</file>
+    <file>sistema.png</file>
+    <file>som.png</file>
+    <file>teclado.png</file>
+    <file>usb.png</file>
+    <file>video.png</file>
+    <file>webcam.png</file>
+    <file>wireless.png</file>
+  </qresource>
+  <qresource prefix="ldc_transparency" >
+    <file>ldc_transparency.png</file>
+  </qresource>
+  <qresource prefix="ldc_result_bckg" >
+    <file>ldc_result_bckg.png</file>
+  </qresource>
+  <qresource prefix="ldc_result_title" >
+    <file>ldc_result_title.png</file>
+  </qresource>
+  <qresource prefix="ldc_white_bckg" >
+    <file>ldc_white_bckg.png</file>
+  </qresource>
+  <qresource prefix="ldc_icon" >
+    <file>ldc_mainwindow_icon.png</file>
+  </qresource>
+  <qresource prefix="ldc_button_bckg" >
+    <file>ldc_button.png</file>
+    <file>ldc_button_bckg.png</file>
+  </qresource>
+  <qresource prefix="itautec_logo" >
+    <file>logo_azul.jpg</file>
+  </qresource>
+</RCC>

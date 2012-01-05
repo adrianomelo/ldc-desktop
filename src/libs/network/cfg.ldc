@@ -1,0 +1,6 @@
+folder="network"
+controller="ctrl_network"
+class="CtrlNetwork"
+name="Rede Ethernet"
+category="Conectividade"
+icon="conectividade.png"

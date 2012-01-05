@@ -1,0 +1,6 @@
+folder="webcam"
+controller="ctrl_webcam"
+class="CtrlWebcam"
+name="Webcam"
+category="Multimídia"
+icon="multimidia.png"

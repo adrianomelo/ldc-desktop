@@ -1,0 +1,19 @@
+Observacoes:
+
+	1 - O gravador de DVD deve ser testado com um DVD virgem ou RW. Nao e aceito um CD(R/RW).
+	2 - O gravador de CD, obviamente, deve ser testado com o CD virgem ou RW.
+
+Casos de teste verificados:
+
+	1 - Midia incompativel (DVD vs. CD)
+	2 - Midia regravavel (formatada se n vazia)
+	3 - Aplicacao de gravacao retornando valor diferente de 0.
+	4 - Aplicacao de formatacao retornando valor diferente de 0.
+
+Casos de teste nao cobertos:
+
+	1 - Abrir gaveta durante a execucao, manualmente
+
+TODO:
+
+	1 - Faltando testar CD-R e CD-RW : Precisamos de um gravador de CD (somente)
